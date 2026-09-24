@@ -1,0 +1,9 @@
+build/
+.gradle/
+run/
+.idea/
+*.iml
+.DS_Store
+
+# Local development and test tooling, not part of the published mod
+**/src/dev/

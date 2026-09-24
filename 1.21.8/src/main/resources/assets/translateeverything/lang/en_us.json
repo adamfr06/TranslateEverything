@@ -1,0 +1,19 @@
+{
+  "key.categories.translateeverything": "TranslateEverything",
+  "key.translateeverything.toggle": "Toggle Translation",
+  "key.translateeverything.overlay": "Open Card Manager",
+  "key.translateeverything.config": "Open Settings",
+  "key.translateeverything.manual": "Translate What I'm Looking At",
+  "key.translateeverything.dismiss": "Dismiss Newest Card",
+  "key.translateeverything.pin": "Pin/Unpin Newest Card",
+  "key.translateeverything.clear": "Clear All Cards",
+  "key.translateeverything.history": "Translation History",
+  "key.translateeverything.ocr": "OCR Screen Scan (Beta)",
+  "key.translateeverything.immersion": "Toggle Full Immersion",
+  "key.translateeverything.input_translate": "Translate Text Field / Selection",
+  "key.translateeverything.input_toggle": "Toggle Input Translation",
+  "key.translateeverything.retry_ai": "Retry with AI (looking at)",
+  "key.translateeverything.followup": "Ask AI about last message",
+  "key.translateeverything.confirm": "Confirm/refine outgoing translation",
+  "key.translateeverything.context_panel": "Open context panel"
+}

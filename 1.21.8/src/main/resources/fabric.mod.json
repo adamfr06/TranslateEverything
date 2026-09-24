@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "translateeverything",
+  "version": "${version}",
+  "name": "TranslateEverything",
+  "description": "Live-translates every piece of text the world throws at you — signs, books, titles, action bars, boss bars, item names, entity names and more — into your language, shown in clean on-screen translation cards.",
+  "authors": [
+    "adamfr06"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/translateeverything/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.adamfr06.translateeverything.TranslateEverythingClient"
+    ],
+    "modmenu": [
+      "dev.adamfr06.translateeverything.gui.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "translateeverything.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}

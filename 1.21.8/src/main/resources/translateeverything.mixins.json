@@ -1,0 +1,36 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.adamfr06.translateeverything.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+  ],
+  "client": [
+    "InGameHudMixin",
+    "BossBarHudAccessor",
+    "HandledScreenAccessor",
+    "BookScreenAccessor",
+    "BookEditScreenAccessor",
+    "AbstractSignEditScreenAccessor",
+    "AdvancementToastMixin",
+    "AdvancementWidgetMixin",
+    "MerchantScreenAccessor",
+    "TextDisplayEntityInvoker",
+    "ChatHudMixin",
+    "ChatScreenMixin",
+    "ChatScreenAccessor",
+    "BookEditScreenMixin",
+    "SignEditScreenMixin",
+    "SignTextMixin",
+    "AbstractSignRendererMixin",
+    "SignTextScaleMixin",
+    "EntityRendererMixin",
+    "ScreenAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
